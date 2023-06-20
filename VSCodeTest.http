@@ -1,0 +1,123 @@
+###
+Get http://localhost:5028/Doctor/getslots
+
+###
+Get http://localhost:5028/Doctor/getslots
+name: SunSea
+
+###
+Get http://localhost:5028/Doctor/getslots
+name: Sun
+
+###
+Get http://localhost:5028/Doctor/getslots
+name: SunSun
+
+###
+POST http://localhost:5028/Doctor/postslots
+Content-Type: application/json
+
+{
+    "Id": "5078caf8-7acc-4a5c-9571-38f8c9316b5c",
+    "Time": "2023-06-17T09:30:00",
+    "DoctorId": "ed7fc41b-b2fe-4544-9295-4624c165f434",
+    "DoctorName": "SunSea",
+    "IsReserved": false,
+    "Cost": 200
+
+}
+
+###
+POST http://localhost:5028/Doctor/postslots
+Content-Type: application/json
+
+{
+    "Id": "077ca068-3297-4b8d-90c8-ef8b8a1e681e",
+    "Time": "2023-06-17T10:30:00",
+    "DoctorId": "ed7fc41b-b2fe-4544-9295-4624c165f434",
+    "DoctorName": "SunSea",
+    "IsReserved": false,
+    "Cost": 200
+
+}
+
+###
+POST http://localhost:5028/Doctor/postslots
+Content-Type: application/json
+
+{
+    "Id": "38cc717e-9bfb-4ee3-88c5-d08800b5aa48",
+    "Time": "2023-06-17T14:30:00",
+    "DoctorId": "ed7fc41b-b2fe-4544-9295-4624c165f434",
+    "DoctorName": "SunSea",
+    "IsReserved": false,
+    "Cost": 200
+
+}
+
+###
+POST http://localhost:5028/Doctor/postslots
+Content-Type: application/json
+
+{
+    "Id": "b0ce653e-ae89-4154-959f-72bf3ed9effb",
+    "Time": "2023-06-18T10:30:00",
+    "DoctorId": "5bb6c308-7d3e-4574-9836-8bbcb4546ba0",
+    "DoctorName": "Sun",
+    "IsReserved": false,
+    "Cost": 100
+
+}
+
+###
+POST http://localhost:5028/Doctor/postslots
+Content-Type: application/json
+
+{
+    "Id": "d56b0312-04b5-439f-9a24-4e56c252ff26",
+    "Time": "2023-06-20T10:30:00",
+    "DoctorId": "835beccc-9f9e-416b-89dd-34ebf3d4b1bc",
+    "DoctorName": "SunSun",
+    "IsReserved": false,
+    "Cost": 300
+
+}
+
+
+
+
+
+###
+Get http://localhost:5028/Patient/getslots
+
+###
+post http://localhost:5028/Patient/postslots
+Content-Type: application/json
+
+{
+    "Id": "ed7fc41b-b2fe-4544-9295-4624c165f434",
+    "SlotId": "38cc717e-9bfb-4ee3-88c5-d08800b5aa48",
+    "PatientId": "4b588c3b-bbd6-4cba-b4c3-82affa2386d1",
+    "PatientName": "Person 1",
+    "ReservedAt":"2023-06-17T14:30:00"
+
+}
+
+###
+post http://localhost:5028/Patient/postslots
+Content-Type: application/json
+
+{
+    "Id": "ed7fc41b-b2fe-4544-9295-4624c165f434",
+    "SlotId": "5078caf8-7acc-4a5c-9571-38f8c9316b5c",
+    "PatientId": "9568054a-52ee-4056-8676-0e5bdc7372b2",
+    "PatientName": "Person 2",
+    "ReservedAt":"2023-06-17T09:30:00"
+
+}
+
+
+
+
+
+
